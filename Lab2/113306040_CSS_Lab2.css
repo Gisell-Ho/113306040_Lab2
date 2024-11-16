@@ -1,0 +1,48 @@
+body{
+	color:royalblue;
+	background-color:lightgray;
+	font-faamily:Arial, sans-serif;
+}
+h1{
+	font-family: 'Times New Roman', Times, serif;
+}
+ul.navbar{
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	width: 20em;
+	list-style-type: none;
+	padding: 0;
+	background-color: darkgrey;
+	color: white;
+}
+ul.navbar li  {
+	display: inline-block;
+	margin-right: 1em;
+}
+ul.navbar li a {
+	color: white;
+	text-decoration: none;
+}
+select{
+	font-family: Arial, sans-serif;
+	padding: 0.5em;
+	margin-top: 1em;
+}
+@media all{
+	body{
+		font-size: 16px;
+	}
+}
+@media print{
+	body{
+		font-size:12px;
+	}
+	ul.navbar{
+		display: none;
+	}
+	.main-body{
+		color: black;
+		background-color: white;
+	}
+}
